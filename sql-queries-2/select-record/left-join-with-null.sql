@@ -1,3 +1,4 @@
+-- Retrieve all courses that have no student registrations
 SELECT c.*
 FROM Course c
 LEFT JOIN Registration r ON c.id = r.course_id
